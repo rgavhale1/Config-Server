@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: Config-Server
+  cloud:
+    config:
+      server:
+        git:
+          clone-on-start: true
+          uri: https://github.com/rgavhale1/Config-Server/blob/main
+          username: rgavhale1994@gmail.com
+          password: Rajeshree@1234
